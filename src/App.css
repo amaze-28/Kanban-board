@@ -1,0 +1,67 @@
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+.ticket-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  background-color: rgb(246, 246, 255);
+}
+
+
+.column {
+  margin-top: 10px;
+  flex: 1; 
+}
+
+.column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .ticket-container {
+    flex-direction: column; 
+  }
+}
+
+
+.ordering{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.column-name{
+  margin: 0px 16px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.column-name-sub1{
+  display: flex;
+  color: rgb(68, 68, 68);
+}
+
+.column-name-sub1-h2{
+  margin-left: 10px;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+.column-icons{
+  color: rgb(160, 159, 159);
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+
+span{
+  margin-left: 20px;
+  padding-top: 2.25px;
+}
